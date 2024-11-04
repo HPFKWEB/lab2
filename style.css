@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+    height: 100vh;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(82, 165, 237);
+    
+}
+
+nav {
+    width: 400px;
+    height: 70px;
+    background-color: #a6ddf7;
+    margin: 0 auto;
+}
+
+main {
+    height: 70vh;
+    width: 70%;
+    background-color: #57e08e;
+    float: right;
+}
+
+aside {
+    height: 70vh;
+    width: 30%;
+    background-color: #eb88cb;
+    float: left;
+}
+
+
+.footer {
+    height: 20vh;
+    width: 100%;
+    background-color: #ee2c93;
+    position: fixed;
+    bottom: 0;
+}
